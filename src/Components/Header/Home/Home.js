@@ -32,11 +32,4 @@ const Home = () => {
     );
 };
 
-export default Home;
-
-
-{/* <div className="team-container">
-                        {
-                            teams.map(team => <Teams team={team}></Teams>)
-                        }
-                    </div> */}
+export default Home; 
