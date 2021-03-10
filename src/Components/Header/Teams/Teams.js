@@ -11,7 +11,7 @@ const Teams = (props) => {
         
             <div className="row">
                 <div className="col-sm-12">
-                    <Card className="card-container" style={{ width: '18rem' }}>
+                    <Card className="card-container text-center" style={{ width: '18rem' }}>
                         <Card.Img className="card-img" variant="top" src={strTeamLogo} />
                         <Card.Body>
                             <Card.Title>{strTeam}</Card.Title>
