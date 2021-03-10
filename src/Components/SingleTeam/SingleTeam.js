@@ -38,7 +38,7 @@ const SingleTeam = () => {
 
     return (
         <div className="twin-team-container">
-             <div className="twin-team-banner">
+             <div className="twin-team-banner"> 
                <div className="row">
                    <div className="col-md-4"></div>
                    <div className="col-md-4"> <img src={strTeamLogo} alt=""/></div>

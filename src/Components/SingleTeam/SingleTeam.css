@@ -15,11 +15,8 @@
 }
 .twin-team-banner img{
     width: 250px;
-    height: 200px; 
-    /* padding-left: 00px; */
-    /* position: relative; */
-    /* margin-left: 40%; */
-     
+    height: 200px;  
+    /* margin-left: 400px; */
 }
 .status-bar{
     width: 80%;
@@ -62,4 +59,19 @@ p{
     align-items: center;
     color: #fff; 
 }
+
+
+
+
+
+
+ 
+  @media screen and (max-width: 475px){
+    .twin-team-banner img{
+        width: 150px;
+        height: 80px;
+        /* padding-right:40px ;   */
+    } 
+} 
+
  

@@ -17,7 +17,7 @@ const Header = () => {
                 <Navbar.Brand><span class="font-weight-bolder text-white">Football Teams</span></Navbar.Brand>
                 <Nav className="mr-auto">
                     <Link to="/home">Home</Link>
-                    <Link to="/home">All Teams</Link>
+                    <Link to="/home">Teams</Link>
                      
                 </Nav> 
             </Navbar>

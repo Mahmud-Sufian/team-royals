@@ -13,3 +13,17 @@
      margin: auto;
      background-color: salmon;
  }
+ @media screen and (max-width: 320px) {
+    .header{
+        width: 90%;
+        margin: auto;
+        background-color: salmon;
+    } 
+    a{
+        margin-right: 30px;
+        /* padding: 10px; */
+        text-decoration: none;
+        color: #fff;
+        width:10px;
+    }
+  }
