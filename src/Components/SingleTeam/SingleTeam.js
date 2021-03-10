@@ -10,12 +10,13 @@ import female from '../../images/female.png';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 
 const SingleTeam = () => {
     const {teamId} = useParams();
     const [team, setTeam] = useState([]);
-    const {intFormedYear, strCountry, strSport, strGender, strTeamLogo, strTeam, strDescriptionEN} = team;
+    const {intFormedYear, strCountry, strSport, strGender, strTeamLogo, strTeam, strDescriptionEN, strYoutube, strFacebook, strTwitter, strInstagram} = team;
     console.log(team)
 
     useEffect(() => {
@@ -80,10 +81,15 @@ const SingleTeam = () => {
                     <p>{strDescriptionEN}</p>
                  </div>
              </div>
-             <div className="icon">
-                <TwitterIcon></TwitterIcon>
-                <FacebookIcon></FacebookIcon>
-                <YouTubeIcon></YouTubeIcon>
+             <div className="icon"> 
+             <a href={`https://${strTwitter}`} target="_blank" rel="noopener noreferrer"><TwitterIcon></TwitterIcon></a>
+             <a href={`https://${strFacebook}`} target="_blank" rel="noopener noreferrer"><FacebookIcon></FacebookIcon></a>
+             <a href={`https://${strYoutube}`} target="_blank" rel="noopener noreferrer"><YouTubeIcon></YouTubeIcon></a>
+             <a href={`https://${strInstagram}`} target="_blank" rel="noopener noreferrer"><InstagramIcon></InstagramIcon></a>
+
+                
+                
+                
              </div>
             
         </div>
