@@ -1,0 +1,7 @@
+.card-img{
+    background-color: lightgrey;
+    padding: 30px; 
+}
+.card-container{
+    box-shadow: 5px 5px 10px grey;
+}
