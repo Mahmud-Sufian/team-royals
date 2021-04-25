@@ -7,4 +7,4 @@ SITE FEATURE :First Of All This Is React Web Site. This Site Have Navbar, Backgr
 SITE LINK : https://team-royals.netlify.app/
 
 I am Currently Leaning Complete Web Development With Jhankar Mahbub.
-Thank You Programming Hero Team and I Love You More Jhankar Mahbub Vaia. Jhankar Mahbub Is a Life changing Person And He is Best Teacher Of Programming Language.Again Thank You So Much Programming Hero Team And Jhankar Vaia.
+Thank You Programming Hero Team and I Love You More Jhankar Mahbub Vaia. Jhankar Mahbub Is a Life changing Person And He is Best Teacher Of Programming Language.Again Thank You So Much Programming Hero Team And Jhankar Mahbub Vaia.
